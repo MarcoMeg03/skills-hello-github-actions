@@ -1,0 +1,8 @@
+name: Hello world
+on: [push, workflow_dispatch] 
+
+jobs:
+  saluta:
+    runs-on: ubuntu-latest
+    steps:
+     - run: echo "ciao, funziona tutto"
